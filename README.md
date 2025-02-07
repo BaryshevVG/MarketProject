@@ -1,18 +1,10 @@
-## Getting Started
+Барышев Вадим
+Этот проект имитирует работу магазина с системой очереди покупателей. Магазин принимает заказы и выдаёт их в порядке очереди
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Структура:
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+QueueBehaviour.java – интерфейс для работы с очередью   .
+MarketBehaviour.java – интерфейс для управления магазином.
+Human.java – класс, представляющий покупателя.
+Market.java – реализация магазина, обрабатывающего очередь.
+Main.java – точка входа.
